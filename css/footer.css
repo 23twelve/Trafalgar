@@ -1,0 +1,68 @@
+
+
+footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: white;
+    margin-top: 200px;
+}
+
+footer a {
+    color: white;    
+    opacity: 1;
+}
+
+footer > div {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 109px 190px;        
+    min-width: 1430px;
+    gap: 145px;
+}
+
+.footer-text p {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.56;    
+    padding-bottom: 31px;
+}
+
+.footer-text p:nth-child(3) {
+    padding: 0;
+}
+
+.logo-footer {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.25;
+    padding-bottom: 17px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 2px;
+    gap: 140px;
+    min-width: 107px;
+}
+
+.nav ul li ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+nav > ul > li > a {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3;
+}
+
+ul > li > ul > li > a{
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.11;
+}

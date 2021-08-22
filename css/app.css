@@ -7,7 +7,8 @@
 }
 
 .app {
-    margin-top: 229px;
+    padding: 229px 0 266px;
+
 }
 
 .app h2 {
@@ -24,4 +25,11 @@
     color: #7D7987;
     margin-top: 63px;
     margin-bottom: 40px;
+}
+
+.app-text {
+    display: flex;
+    align-items: flex-start;    
+    justify-content: space-around;
+    flex-direction: column;
 }

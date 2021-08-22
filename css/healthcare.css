@@ -2,11 +2,12 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    gap: 142px;
+    gap: 137px;
+    align-items: center;
 }
 
 .healthcare {    
-    padding-top: 277px;
+    padding-top: 220px;
 }
 
 .healthcare h2 {
@@ -25,5 +26,8 @@
 }
 
 .healthcare-text > div {
-    align-items: flex-start;
+    display: flex;
+    align-items: flex-start;    
+    justify-content: space-around;
+    flex-direction: column;
 }

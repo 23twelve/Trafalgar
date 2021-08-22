@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Mulish";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url(Mulish/Mulish-Light.woff2) format('woff2');
+}
+@font-face {
+    font-family: "Mulish";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url(Mulish/Mulish-Regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: "Mulish";
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url(Mulish/Mulish-SemiBold.woff2) format('woff2');
+}
+@font-face {
+    font-family: "Mulish";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(Mulish/Mulish-Bold.woff2) format('woff2');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Mulish', Arial, sans-serif; 
+    font-size: 10px;
+    background-color: rgba(220, 243, 247, 0.767);
+}
+
+.container {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+
+.button {
+    text-align: center;    
+    padding-top: 72px;
+}
+
+.button a {    
+    color: #458FF6;
+    text-decoration: none;
+    padding: 3px 51px 1px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3.33;
+    text-align: center; 
+}
+
+h2::after {
+    content: '';
+    width: 56px;
+    height: 2px;
+    background-color: #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-bottom: 72px;
+}

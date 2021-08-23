@@ -2,6 +2,10 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url(../img/element.svg);
+    background-size: 131.5px 115px;
+    background-repeat: no-repeat;
+    background-position: top 160px left -30px;
 }
 
 .hero header {

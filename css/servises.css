@@ -20,12 +20,16 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 35px;
+    background-image: url(../img/element1.svg);
+    background-size: 131.5px 115px;
+    background-repeat: no-repeat;
+    background-position: top 285px right 0px;
 }
 
 .cards li {
     width: 350px;
     height: 354px;
-    background-color: white;
+    background-color: rgba(223, 223, 223, 0.719);
     border-radius: 20px;
     padding: 54px 40px 47px;
 }

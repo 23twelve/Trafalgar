@@ -1,7 +1,10 @@
 
 
 footer {
-    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background: url(../img/element3.svg), linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background-size: 131.5px 115px, auto;
+    background-repeat: no-repeat;
+    background-position: bottom -10px left -10px;
     color: white;
     margin-top: 200px;
 }

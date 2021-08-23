@@ -1,5 +1,8 @@
-.article {
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+.article {    
+    background: url(../img/element3.svg), linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);     
+    background-size: 131.5px 115px, auto;
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
     border-radius: 24px;
     width: 1120px;
     height: 400px;
